@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/after_home"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context="com.odracir.android.ddmxmkt.MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Tours"
+        android:textSize="45dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginBottom="150dp"
+        android:layout_gravity="center">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnTour1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="tour1InfoLayoutButton"
+        android:text="Information on Tour 1"
+        android:textSize="24sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnTour2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="tour2InfoLayoutButton"
+        android:text="Information on Tour 2"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnTour3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="tour3InfoLayoutButton"
+        android:text="Information on Tour 3"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnTour4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="tour4InfoLayoutButton"
+        android:text="Information on Tour 4"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnTour5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="tour5InfoLayoutButton"
+        android:text="Information on Tour 5"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnTour6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="tour6InfoLayoutButton"
+        android:text="Information on Tour 6"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnTour7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="tour7InfoLayoutButton"
+        android:text="Information on Tour 7"
+        android:textSize="24sp" />
+
+
+</LinearLayout>

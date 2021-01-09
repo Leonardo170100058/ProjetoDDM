@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DWG</string>
+    <string name="owner">Call The Owner</string>
+    <string name="location">Show Location</string>
+    <string name="tour1">DOURO VINTAGE TOURS</string>
+    <string name="tour2">CM TOUR</string>
+    <string name="tour3">CENÁRIOS PT</string>
+    <string name="tour4">THE OTHER SIDE</string>
+    <string name="tour5">DOURO EXCLUSIVE</string>
+    <string name="tour6">PREMIUM TOURS</string>
+    <string name="tour7">TOURS NO DOURO</string>
+</resources>
