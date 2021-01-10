@@ -42,73 +42,37 @@
         <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/douro">
+        android:background="@drawable/douroexclusive1">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/barco">
+            android:background="@drawable/douroexclusive2">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/barril">
+            android:background="@drawable/douroexclusive3">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/carroazul">
+            android:background="@drawable/douroexclusive4">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/douro">
+            android:background="@drawable/douroexclusive5">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/dourovintagetours1">
-        </ImageView>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/mesa">
-        </ImageView>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/quinta">
-        </ImageView>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/trabalhador">
-        </ImageView>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/vinho">
-        </ImageView>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/vintage">
-        </ImageView>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/vista1">
+            android:background="@drawable/douroexclusive6">
         </ImageView>
 
     </ViewFlipper>

@@ -14,6 +14,8 @@
     tools:context="com.odracir.android.ddmxmkt.MainActivity"
     android:background="@drawable/background">
 
+    //Usar fotos random pois o site n tem fotos das tours
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
