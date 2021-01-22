@@ -36,43 +36,43 @@ public class MainActivity extends AppCompatActivity {
     public void getLocationTour1(View view){
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:19.067,72.877"));
+        intent.setData(Uri.parse("geo:41.32501634988695, -7.735688488165487"));
         startActivity(intent);
         }
     public void getLocationTour2(View view){
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:19.067,72.877"));
+        intent.setData(Uri.parse("geo:41.15868372034637, -7.783957459333858"));
         startActivity(intent);
     }
     public void getLocationTour3(View view){
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:19.067,72.877"));
+        intent.setData(Uri.parse("geo:41.296124514221084, -7.7330936593305655"));
         startActivity(intent);
     }
     public void getLocationTour4(View view){
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:19.067,72.877"));
+        intent.setData(Uri.parse("geo:41.142768811011024, -8.610155457166188"));
         startActivity(intent);
     }
     public void getLocationTour5(View view){
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:19.067,72.877"));
+        intent.setData(Uri.parse("geo:41.15420094997663, -8.595388285534431"));
         startActivity(intent);
     }
     public void getLocationTour6(View view){
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:19.067,72.877"));
+        intent.setData(Uri.parse("geo:41.159513349627154, -8.629451446880344"));
         startActivity(intent);
     }
     public void getLocationTour7(View view){
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:19.067,72.877"));
+        intent.setData(Uri.parse("geo:41.15783965471178, -8.62781763279683"));
         startActivity(intent);
     }
 
