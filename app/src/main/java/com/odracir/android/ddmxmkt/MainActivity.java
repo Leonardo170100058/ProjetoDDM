@@ -33,11 +33,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //geo:41.32501634988695, -7.735688488165487 --> ja não é necessário
     public void getLocationTour1(View view){
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:41.32501634988695, -7.735688488165487"));
-        startActivity(intent);
+        Uri gmmIntentUri = Uri.parse("google.navigation:q=Rua+Quinta+do+Santo,+5000-062+Vila+Real");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);                                //Meter o codigo das outas localizacoes da mesma forma
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
         }
     public void getLocationTour2(View view){
         Intent intent = new Intent();
