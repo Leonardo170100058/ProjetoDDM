@@ -8,22 +8,11 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.view.WindowManager;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    /*public final static String[] NECESSARY_PERMISSIONS =
-            {
-                    Manifest.permission.CALL_PHONE
-            };
-
-    public final int CALL_ME_ON_THIS_CODE_WHEN_THE_USER_REPLIES_TO_THE_REQ = 321;*/
-
-    //DdmUtil ddmUtil;
     Button buttonCallTour1, buttonCallTour2, buttonCallTour3, buttonCallTour4, buttonCallTour5, buttonCallTour6, buttonCallTour7;
 
     @Override
@@ -33,48 +22,48 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //geo:41.32501634988695, -7.735688488165487 --> ja não é necessário
+
     public void getLocationTour1(View view){
         Uri gmmIntentUri = Uri.parse("google.navigation:q=Rua+Quinta+do+Santo,+5000-062+Vila+Real");
-        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);                                //Meter o codigo das outas localizacoes da mesma forma
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);                                        //Douro Vintage Tours
         mapIntent.setPackage("com.google.android.apps.maps");
         startActivity(mapIntent);
         }
     public void getLocationTour2(View view){
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:41.15868372034637, -7.783957459333858"));
-        startActivity(intent);
+        Uri gmmIntentUri = Uri.parse("google.navigation:q=Largo+da+Estação,+Peso+da+Régua");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);                                        //CMTour
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
     }
     public void getLocationTour3(View view){
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:41.296124514221084, -7.7330936593305655"));
-        startActivity(intent);
+        Uri gmmIntentUri = Uri.parse("google.navigation:q=Av.+João+Paulo+II,+5000-703+Vila+Real");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);                                        //CenáriosPT
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
     }
     public void getLocationTour4(View view){
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:41.142768811011024, -8.610155457166188"));
-        startActivity(intent);
+        Uri gmmIntentUri = Uri.parse("google.navigation:q=R.+Souto+67,+Maia");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);                                        //The Other Side
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
     }
     public void getLocationTour5(View view){
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:41.15420094997663, -8.595388285534431"));
-        startActivity(intent);
+        Uri gmmIntentUri = Uri.parse("google.navigation:q=R.+de+Barros+Lima+881,+Porto");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);                                        //Douro Exclusive
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
     }
     public void getLocationTour6(View view){
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:41.159513349627154, -8.629451446880344"));
-        startActivity(intent);
+        Uri gmmIntentUri = Uri.parse("google.navigation:q=Por Encontrar");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);                                        //Premium Tours
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
     }
     public void getLocationTour7(View view){
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:41.15783965471178, -8.62781763279683"));
-        startActivity(intent);
+        Uri gmmIntentUri = Uri.parse("google.navigation:q=Praça+de+Mouzinho+de+Albuquerque+no113,+Porto");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);                                        //Tours No Douro
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
     }
 
 
@@ -201,23 +190,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
-    /*void init(){
-
-        ddmUtil = new DdmUtil(this);
-
-        ddmUtil.requestNecessaryPermissionsNotYetGranted(
-                NECESSARY_PERMISSIONS,
-                CALL_ME_ON_THIS_CODE_WHEN_THE_USER_REPLIES_TO_THE_REQ
-        );
-    }//init
-
-    void actionCheckPermissions(){
-        String strCurrentPermissionsStatus =
-                ddmUtil.permissionsStatusToString(NECESSARY_PERMISSIONS);
-
-        ddmUtil.fb(strCurrentPermissionsStatus);
-    }//actionCheckPermissions*/
 
 }
 
