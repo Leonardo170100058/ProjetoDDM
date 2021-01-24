@@ -14,21 +14,25 @@
     tools:context="com.odracir.android.ddmxmkt.MainActivity"
     android:background="@drawable/background">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/btnCMTour"
+        android:onClick="afterHomeLayoutButton"
+        android:layout_width="350dp"
+        android:layout_height="110dp"
         android:text="@string/tour2"
         android:textStyle="bold"
         android:textSize="40sp"
         android:layout_gravity="center"
-        android:textColor="#ffffff"
-        android:layout_marginBottom="50sp"
-        android:layout_marginTop="50sp">
-    </TextView>
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF">
+    </Button>
 
     <ViewFlipper
         android:layout_width="390sp"
         android:layout_height="220dp"
+        android:layout_below="@+id/btnCMTour"
         android:layout_centerHorizontal="true"
         android:inAnimation="@android:anim/slide_in_left"
         android:outAnimation="@android:anim/slide_out_right"
@@ -86,22 +90,30 @@
 
     <Button
         android:id="@+id/btnCallTour2"
-        android:layout_width="wrap_content"
+        android:layout_below="@+id/v_flipper"
+        android:layout_width="290dp"
         android:layout_height="wrap_content"
         android:text="@string/owner"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="5dp">
     </Button>
 
     <Button
         android:id="@+id/btnGPS"
-        android:layout_width="wrap_content"
+        android:layout_below="@+id/btnCallTour2"
+        android:layout_width="290dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="getLocationTour2"
         android:text="@string/location"
         android:textSize="24sp"
-        android:textStyle="bold"></Button>
+        android:textStyle="bold"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF">
+    </Button>
 
 </LinearLayout>

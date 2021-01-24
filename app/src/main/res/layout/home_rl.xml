@@ -9,38 +9,45 @@
     android:paddingTop="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
+    android:orientation="vertical"
     tools:context="com.odracir.android.ddmxmkt.MainActivity"
     android:background="@drawable/background">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:text="Douro Wines Guide"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
         android:id="@+id/textView"
-        android:textColor="#ffffff"
         android:textSize="40dp"
         android:textStyle="bold"
+        android:textAlignment="center"
         android:fontFamily="sans-serif-light"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:textColor="#ffffff"
+        android:paddingBottom="5dp"/>
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="305dp"
-        android:layout_height="536dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/logo" />
 
     <Button
         android:id="@+id/btnDescobrir"
-        android:layout_width="wrap_content"
+        android:layout_width="290dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="47dp"
+        android:layout_below="@+id/imageView"
+        android:background="@drawable/custom_button"
         android:onClick="afterHomeLayoutButton"
         android:text="Find More"
-        android:textSize="30dp" />
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        />
 
 </RelativeLayout>

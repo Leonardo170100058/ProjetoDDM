@@ -13,28 +13,33 @@
     tools:context="com.odracir.android.ddmxmkt.MainActivity"
     android:background="@drawable/background">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/btnDouroVintageTours"
+        android:onClick="afterHomeLayoutButton"
+        android:layout_width="350dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
         android:text="@string/tour1"
         android:textStyle="bold"
         android:textSize="40sp"
         android:textAlignment="center"
-        android:textColor="#ffffff"
-        android:layout_marginBottom="50sp"
-        android:layout_marginTop="50sp">
-    </TextView>
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp">
+    </Button>
 
     <ViewFlipper
         android:layout_width="390sp"
         android:layout_height="220dp"
+        android:layout_below="@+id/btnDouroVintageTours"
         android:layout_centerHorizontal="true"
         android:inAnimation="@android:anim/slide_in_left"
         android:outAnimation="@android:anim/slide_out_right"
         android:id="@+id/v_flipper"
         android:flipInterval="2000"
         android:padding="8sp"
-        android:background="@color/colorAccent"
+        android:background="@drawable/custom_button"
         android:autoStart="true"
         android:layout_marginBottom="50sp">
 
@@ -115,22 +120,31 @@
 
     <Button
         android:id="@+id/btnCallTour1"
-        android:layout_width="wrap_content"
+        android:layout_below="@+id/v_flipper"
+        android:layout_width="290dp"
         android:layout_height="wrap_content"
         android:text="@string/owner"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="5dp">
     </Button>
 
     <Button
         android:id="@+id/btnGPS"
-        android:layout_width="wrap_content"
+        android:layout_below="@+id/btnCallTour1"
+        android:layout_width="290dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="getLocationTour1"
         android:text="@string/location"
         android:textSize="24sp"
-        android:textStyle="bold"></Button>
+        android:textStyle="bold"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF">
+
+    </Button>
 
 </LinearLayout>
