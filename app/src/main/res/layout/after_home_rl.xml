@@ -13,24 +13,25 @@
     tools:context="com.odracir.android.ddmxmkt.MainActivity"
     android:background="@drawable/background">
 
-    <TextView
+    <Button
+        android:id="@+id/btnAvailableTours"
+        android:onClick="homeLayoutButton"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="Available Tours"
         android:textSize="45dp"
         android:textStyle="bold"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="50dp"
         android:layout_gravity="center"
         android:background="@drawable/custom_button"
         android:textColor="#FFFFFF"
         android:textAlignment="center"
         android:paddingBottom="5dp">
-
-    </TextView>
+    </Button>
 
     <Button
         android:id="@+id/btnTour1"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/btnAvailableTours"
         android:layout_width="290dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -117,6 +118,5 @@
         android:textSize="24sp"
         android:background="@drawable/custom_button"
         android:textColor="#FFFFFF"/>
-
 
 </LinearLayout>

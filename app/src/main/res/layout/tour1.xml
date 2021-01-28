@@ -144,7 +144,6 @@
         android:textStyle="bold"
         android:background="@drawable/custom_button"
         android:textColor="#FFFFFF">
-
     </Button>
 
 </LinearLayout>

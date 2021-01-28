@@ -46,43 +46,43 @@
         <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/premiumtours1">
+        android:background="@drawable/anetours1">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/premiumtours2">
+            android:background="@drawable/anetours2">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/premiumtours3">
+            android:background="@drawable/anetours3">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/premiumtours4">
+            android:background="@drawable/anetours4">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/premiumtours5">
+            android:background="@drawable/anetours5">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/premiumtours6">
+            android:background="@drawable/anetours6">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/premiumtours7">
+            android:background="@drawable/anetours7">
         </ImageView>
 
     </ViewFlipper>

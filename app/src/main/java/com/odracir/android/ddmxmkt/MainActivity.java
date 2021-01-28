@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(mapIntent);
     }
     public void getLocationTour6(View view){
-        Uri gmmIntentUri = Uri.parse("google.navigation:q=Por Encontrar");
+        Uri gmmIntentUri = Uri.parse("google.navigation:q=ANE+Tours+-+Travel+Solutions");
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);                                        //Premium Tours
         mapIntent.setPackage("com.google.android.apps.maps");
         startActivity(mapIntent);
@@ -66,7 +66,18 @@ public class MainActivity extends AppCompatActivity {
         startActivity(mapIntent);
     }
 
+    public void goToSite(View view){
+        openWebSite("http://www.dourowinesguide.ga/");
+    }
+    public void openWebSite(String url){
+        Uri uri = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(launchBrowser);
+    }
 
+        public void homeLayoutButton(View view){
+        setContentView(R.layout.home_rl);
+        }
 
         public void afterHomeLayoutButton(View view){
             setContentView(R.layout.after_home_rl);
@@ -167,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:+351936000616"));
+                intent.setData(Uri.parse("tel:+351229942667"));
                 startActivity(intent);
             }
         });

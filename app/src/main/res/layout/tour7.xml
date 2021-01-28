@@ -9,12 +9,9 @@
     android:paddingBottom="16dp"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
-
     android:orientation="vertical"
     tools:context="com.odracir.android.ddmxmkt.MainActivity"
     android:background="@drawable/background">
-
-    //falta por mais fotos
 
     <Button
         android:id="@+id/btnTourNoDouro"
@@ -66,55 +63,25 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/carroazul">
+            android:background="@drawable/tournodouro4">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/douro">
+            android:background="@drawable/tournodouro5">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/dourovintagetours1">
+            android:background="@drawable/tournodouro6">
         </ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/mesa">
-        </ImageView>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/quinta">
-        </ImageView>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/trabalhador">
-        </ImageView>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/vinho">
-        </ImageView>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/vintage">
-        </ImageView>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/vista1">
+            android:background="@drawable/tournodouro7">
         </ImageView>
 
     </ViewFlipper>
